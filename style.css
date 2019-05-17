@@ -18,7 +18,8 @@
   display: inline-block;
   font-size: 1vw; }
 
-.list, .link {
+.list,
+.link {
   display: block;
   color: white;
   text-align: center;
@@ -90,29 +91,14 @@ body {
   margin-top: -10%;
   font-size: 11px;
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  padding: 3px; }
 
 .footerpic {
   margin-left: 12cm;
   margin-top: 10px;
   width: 220px;
   height: 75px; }
-
-.footertext {
-  margin-left: 12cm; }
-
-.flex-item {
-  width: 80%;
-  height: 80%; }
-
-.headertext {
-  margin-left: 200px; }
-
-.lyrics {
-  margin-left: 350px; }
-
-.formspaghetti {
-  margin-left: 400px; }
 
 .newsbar {
   list-style-type: none;
@@ -154,13 +140,12 @@ body {
   margin: 0;
   padding: 0px;
   background-color: #DEDEDE;
-  position: static;
-  top: 0.5em;
   margin-left: 0px;
   width: 82.5%; }
 
 .popularbar {
-  margin: 0;
+  width: 100%;
+  margin: 0px;
   display: flex;
   justify-content: flex-start; }
 

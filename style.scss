@@ -1,3 +1,4 @@
+ 
     .main {
         margin: auto;
         width: 60%;
@@ -20,9 +21,15 @@
         display: inline-block;
         font-size: 1vw;
     }
+    .list2 {
+        
+        text-align: center;
+        display:inline-block;
+        font-size: 1vw;
+    }
 
     .list,
-    .link {
+    .link, {
         display: block;
         color: white;
         text-align: center;
@@ -70,16 +77,19 @@
         padding: 0;
         margin: 0;
         display: flex;
-        flex-wrap:wrap;  
+        flex-wrap:wrap; 
+        width:80%;
+        overflow:hidden; 
+        float:left;
     }
 
-    .news2 {
-        padding: 0;
-        margin-right: 0;
-        display: flex;
-        flex-wrap:wrap;
+    // .news2 {
+    //     padding: 0;
+    //     margin-right: 0;
+    //     display: flex;
+    //     flex-wrap:wrap;
 
-    }
+    // }
 
     .row1 {
         margin: auto;
@@ -153,8 +163,8 @@
     }
 
     .divresizer {
-        height: 15%;
-        width: 25%;
+        height: 20%;
+        width: 30%;
         padding: 5px;
         margin: 5px;
     }
@@ -165,7 +175,7 @@
         padding: 0px;
         background-color: #DEDEDE;
         margin-left: 0px;
-        width: 82.5%;
+        width: 100%;
     }
 
     .popularbar {
@@ -177,6 +187,71 @@
     }
 
     .banner2 {
-        margin-left: 20%;
-        position: sticky;
+        float:right;
+        margin:0;
+        padding:0;
+        margin-right:5%;
+        height:100%;
+            }
+
+
+    .divresizer2 {
+        height: 100%;
+        width: 40%;
+        padding: 5px;
+        margin: 5px;
     }
+
+    .banner4 {
+       height:100%;
+       width:10%;
+    }
+
+    .banner3 {
+        margin-left:10%;
+    }
+
+    .navbar2 {
+        
+        background-color: #131313;
+        top: 0.5em;
+        margin-left: 0px;
+    }
+
+    footer {
+        background-color:#131313;
+    }
+
+    .footerlogo {
+        display:flex;
+        justify-content:flex-end;
+        margin-right:5%;
+    }
+
+    .footertext {
+        display:flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .banner2s {
+        display:none;
+    }
+
+    @media screen and (max-width: 480px) {
+     .banner2 {
+        display:none;
+    }
+
+    .banner2s{
+        float:right;
+        margin:0;
+        padding:0;
+        margin-right:5%;
+        height:100%;
+            }
+
+    }
+        
+        
+    

@@ -67,7 +67,7 @@ body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
   overflow: hidden;
   float: left; }
 
@@ -156,7 +156,7 @@ body {
   margin: 0;
   padding: 0;
   margin-right: 5%;
-  height: 100%; }
+  width: 20%; }
 
 .divresizer2 {
   height: 100%;
